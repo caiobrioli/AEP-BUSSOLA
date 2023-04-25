@@ -80,18 +80,7 @@ class ProdutoController{
         }
     }
 
-    // public async listarAbatesMortes(req :Request,response: Response){
-    //     try {
-    //         const totalAbatesMortes= await ProdutoService.listarAbatesMortes();
-    //         response.status(201).send(totalAbatesMortes);
-    //       } catch (error: unknown) {
-    //         if (error instanceof Error) {
-    //           response.status(500).json({ error: error.message });
-    //         } else {
-    //           response.status(500).json({ error: 'Erro desconhecido.' });
-    //         }
-    //       }
-    // }
+
     
 }
 
